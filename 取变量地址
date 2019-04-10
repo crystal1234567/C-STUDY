@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	int a=0,b=1;
+	char c='A';
+	printf("a=%d,&a=%p\n",a,&a);
+	printf("b=%d,&b=%p\n",b,&b);
+	printf("c=%c,&c=%p\n",c,&c);
+	return 0;
+}
